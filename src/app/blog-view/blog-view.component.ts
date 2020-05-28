@@ -21,7 +21,7 @@ export class BlogViewComponent implements OnInit,OnDestroy {
 
   constructor(private _route: ActivatedRoute, private router: Router,public blogservice:BlogService,public blogHttpService:BlogHttpService,private location:Location/*private toastr:ToastsManager,vcr:ViewContainerRef*/) {
   console.log("blog-view constructor is called");
-  //delete
+  
   //this.toastr.setRootViewContainerRef(vcr)
   
 }
